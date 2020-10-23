@@ -1,56 +1,61 @@
 /* Colors based on the game 2048 */
-body{
-    margin: auto;
-    background-color: #fdf6e3;
-    padding: 10px;
-    font-family: "Clear Sans", "Helvetica Nueue", Arial, sans-serif;
+body {
+  margin: auto;
+  background-color: #fdf6e3;
+  padding: 10px;
+  font-family: "Clear Sans", "Helvetica Nueue", Arial, sans-serif;
 }
 
 table {
-    border-collapse: collapse;
+  border-collapse: collapse;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
-table, th, td {
-    border: 10px solid #9D958C;
-    text-align: center;
-    font-weight: 800;
-    font-size: 30px;
-    margin-left:auto; margin-right:auto; 
-    color: #696055;
+table,
+th,
+td {
+  border: 10px solid #9d958c;
+  text-align: center;
+  font-weight: 800;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #696055;
 }
 
-td{
-    height: 75px;
-    width: 75px;
-    background-color: #EDE3D3;
+td {
+  height: 75px;
+  width: 75px;
+  background-color: #ede3d3;
 }
 
-td:hover{
-    background-color: #DAC8B2;
-    cursor: pointer;
+td:hover {
+  background-color: #dac8b2;
+  cursor: pointer;
 }
 
-.emptyTile{
-    background-color: #9D958C;
+.emptyTile {
+  background-color: #9d958c;
 }
 
-.emptyTile:hover{
-    background-color: #9D958C;
-    cursor: auto;
+.emptyTile:hover {
+  background-color: #9d958c;
+  cursor: auto;
+}
+
+#new_game_div {
+  text-align: center;
 }
 
 button {
-    background-color: #EC4D58;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    margin: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 25px;
+  background-color: #ec4d58;
+  border: none;
+  color: white;
+  margin: 10px 10px;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 25px;
 }
